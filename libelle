@@ -1,0 +1,35 @@
+Jan nou te wè nan leson 3 sa, nou te fè yon ekzanp ki baze sou modelizasyon machin. Se sou yon TP ki baze sou menm lojik la, ke w pral travay.
+
+Avèk yon klas, modelize yon machin ki gen ladan yon atribi klas kawotchou ki reprezante kantite kawotchou chak machin ap genyen. Klas sa dwe konstwi ak atribi: vites, koule, model, pwopriyete, gaz, _tente , ane, _pri
+
+Yon galon gaz koute 750 goud, pa bliye yon galon = 3.785 lit
+Kantite gaz machin nan dwe genyen 3500 lit
+Koulè nwa
+Modèl machin nan se Toyota
+Ane machin nan se 2012
+Machin nan pa tente, li egal False
+Pri machin nan dwe 170,000 Goud
+
+konstwi metòd ki pou akselere: Metòd sa ap akselere machin nan chak fwa de +34 (Pa bliye varyasyon ki ap genyen ki gen rapò ak gaz la -14 lit).
+
+konstwi metòd ki pou frennen : Metòd sa ap frennen epi redwi vitès la -58. Varyasyon gaz la -7 lit
+
+konstwi metòd ki pou vann machin nan: Metòd ki pou pèmèt ou vann machin nan, li ap jis chanje pwopriyetè.
+
+konstwi metòd ki pou douko: Yon metòd pou w douko machin nan, ki ap resevwa nenpòt valè ou vle presize pou paramèt: ble, vèt, jòn, blan, nwa….
+
+konstwi metòd ki pou fè gaz: Yon metòd pou w fè gaz lè gaz ou fini, fòk ou presize pou konbyen lajan w ap achte lit gaz la - galon gaz la gen 3,785 lit, epi galon an koute 750 goud.
+
+Kreye yon operasyon pwopriyete (Property) sou atribi prive _tente. Chak fwa w tente machin nan, li dwe bay yon avètisman:
+
+⚠️ Sonje ou dwe gen papye legal DGI poutèt ou tente machin nan.
+Kreye yon operasyon pwopriyete (Property) sou atribi prive _pri. Chak fwa pri a chanje, li dwe di:
+
+🚗 Machin nan kòmanse pèdi valè, mesye/madam {pwopriyetè}.
+
+Kèk varyasyon lib, ki dwe fèt:
+
+Pri machin nan ap diminye de 1,000 goud a chak fwa w fè gaz 3 fwa
+Pri a dwe ogmante de 200 goud chak fwa ou douko.
+Lè w vann machin nan, li dwe afiche pri machin nan, ansanm ak non nouvo moun ou vann li a.
+Okenn valè pa dwe vin negatif. Limit pi piti a se zewo.
